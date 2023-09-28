@@ -1,0 +1,33 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /*overflow: hidden;*/
+}
+
+html {
+    overflow: scroll;
+}
+
+.floating {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    min-width: 100vw;
+    height: 200vh;
+    top: -20px;
+}
+.floating .line {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px; 
+    display: block;
+    white-space: nowrap;
+}
+
+.main {
+    cursor: default;
+}
